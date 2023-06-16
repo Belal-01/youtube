@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .sidbar{
+        background-color:green;
+
+        position: fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        width:100px;
+      }
+      .overlay{
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+
+        display:flex;
+        justify-content: center;
+        align-items:center;
+      }
+      .modle{
+        background-color:white;
+        border-radius:6px;
+        padding-top:15px;
+        padding-left:12px;
+        padding-bottom:15px;
+        width: 400px;
+        
+        border:1px;
+        border-style: solid;
+        border-color: gray;
+
+      }
+      .modal-title{
+        font-family: Arial;
+        font-weight:bold;
+        font-size: 15px;
+        margin-bottom:13px;
+       
+
+      }
+      .modal-info{
+        font-family:arial;
+        margin-bottom:15px;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="sidbar">sidbar</div>
+    <div class="overlay">
+      <div class="modle">
+        <div class="modal-title">Model Title</div>
+        <div class="modal-info">this is a modal</div>
+        <div>
+          <button>Close</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

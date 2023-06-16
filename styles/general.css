@@ -1,0 +1,18 @@
+p{
+  margin-top:0;
+  margin-bottom:0;
+}
+body{
+  font-family:roboto,arial;
+  margin:0;
+  padding-top:80px;
+  padding-left:97px;
+  padding-right:24px;
+  padding-bottom:300px;
+  background-color:rgb(250, 250, 250);
+}
+@media(min-width:1200px){
+  body{
+    padding-left:225px;
+  }
+}
